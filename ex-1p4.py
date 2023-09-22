@@ -1,7 +1,8 @@
-gsm = 309
+gsm         = float(input("Entrer prix Gsm"))
 
-protections = 16.99
+protections = float(input("Entrer prix protection"))
 
-screens = 27.99
+screens     = float(input("Entrer prix écran"))
 
 print(f"Le montant à payer est de: {(gsm+protections+screens)}") 
+
