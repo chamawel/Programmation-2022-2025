@@ -4,13 +4,15 @@ def verify(place):
 
 
     if place < 5:
-        return place * 7
+        price = 7
     
     elif place <= 10:
-        return place *6
+        price = 6
     
     else:
-        return place * 4.5
+        price = 4.5
+    
+    return price
 
 
 while True:
@@ -22,7 +24,7 @@ while True:
         exit("Bye")
 
     else:
-        print(f"Cela coutera: { verify(place_u) } €")
+        print(f"Cela coutera: { verify(place_u)*place_u } €")
 
     time.sleep(1)
 
