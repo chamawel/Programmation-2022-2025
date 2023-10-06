@@ -15,7 +15,7 @@ def verify(place):
 
 while True:
 
-    place_u = int(input("combien de place vouler vous enter 0 to close"))
+    place_u = int(input("how many places do you want? | 0 to close program "))
 
     if place_u == 0:
         time.sleep(1)
