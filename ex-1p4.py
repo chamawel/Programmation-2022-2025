@@ -1,7 +1,12 @@
-gsm = 309
+#init
 
-protections = 16.99
+gsm         = float(input("Entrer prix Gsm")) #Input
 
-screens = 27.99
+protections = float(input("Entrer prix protection")) #Input
 
-print(f"Le montant à payer est de: {(gsm+protections+screens)}") 
+screens     = float(input("Entrer prix écran")) #Input
+
+#Processing and Output
+
+print(f"Le montant à payer est de: {(gsm+protections+screens)}") #Output
+

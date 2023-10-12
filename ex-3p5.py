@@ -1,13 +1,21 @@
-a = 3
-b = 5
+#first Init
 
-print(f"'a' vaut {a} et 'b' vaut {b} ")
+a = 3   #Afectation  
+b = 5   #Afectation  
 
-a = a + b
-b = a - b
-a = a - b
+# output
 
-print(f"'a' vaut {a} et 'b' vaut {b} ")
+print(f"'a' vaut {a} et 'b' vaut {b} ") #output
+
+#Processing
+
+a = a + b   #Afectation  
+b = a - b   #Afectation  
+a = a - b   #Afectation  
+
+#Output
+
+print(f"'a' vaut {a} et 'b' vaut {b} ") #Output
 
 
 # Le XOR ('^') ne fonctionne pas :(
