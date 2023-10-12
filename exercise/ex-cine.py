@@ -21,7 +21,7 @@ while True:
 
     if place_u == 0:
         time.sleep(1)
-        exit("Bye")
+        exit("Exiting Program...")
 
     else:
         print(f"Cela coutera: { verify(place_u)*place_u } €")
