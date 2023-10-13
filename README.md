@@ -2,7 +2,7 @@
 
 >[!IMPORTANT]
 >Voici le Repository github qui contient l'ensemble 
->des travaux de  programation de [@chamawel](https://github.com/chamawel)
+>des travaux de  programation de [@chamawel](https://github.com/chamawel)[^1]
 >Il se peut que d'autre langages de programation soit ajouté
 >et que certains fichier comporte deux manière de réaliser la même tâche.
 
@@ -20,3 +20,7 @@
     - [Exercise N°1            | *Le vendeur de casserols*      ](Exercises/Struct-condi/ex-1p7.py)
     - [Exercise N°2            | *Donner le nombre de racines*  ](Exercises/Struct-condi/ex-2p8.py)
     - [Exercise N°3            | *Donner le joueur prioritaire* ](Exercises/Struct-condi/ex-3p9.py)
+
+
+
+[^1]: C'est moi. 
