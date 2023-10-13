@@ -8,7 +8,7 @@
 
 ## Table Des Matières
 
-### Python:\[^2\] 
+### Python: 
 
 1. [Exercise Sur les bases de Python               ](Exercises/Les-bases/) 
     - [Exercise N°1 | *Le montant à payer*         ](Exercises/Les-bases/ex-1p4.py)
@@ -24,5 +24,3 @@
 
 
 [^1]: C'est moi. 
-[^2]: Langage utiliser dans le cours
-  de programmation.
