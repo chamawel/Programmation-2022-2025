@@ -1,6 +1,6 @@
 # devoir-prog
 
-Voici le Repo github qui contient l'ensemble 
+Voici le Repository github qui contient l'ensemble 
 
 des travaux de  programation de [@chamawel](https://github.com/chamawel)
 
