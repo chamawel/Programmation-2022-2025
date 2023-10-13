@@ -1,9 +1,6 @@
 # devoir-prog
 
-Ajout des 3 premier devoir.
-
-Ajout d'une séparation ex et interro
-
-ajout Interro-2
-
-ajout exercise sur les struct-conditionel
+Voici le Repo github qui contient l'ensemble
+de mes travaux en programation
+[Exercise Sur les base de Python](exercise/les-base/)
+[Exercise Sur Les Structure Conditionelle](exercise/struct-condi/)
