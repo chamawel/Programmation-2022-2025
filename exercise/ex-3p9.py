@@ -40,5 +40,10 @@ while True:
         
     else:
         print("Il y a une égalité")
+
+    isquitting = input("Voulez-vos quitter ? (Y/N)")
+
+    if isquitting == "Y" or isquitting == "y":
+        exit("exiting Program ...")
     
     time.sleep(1)
