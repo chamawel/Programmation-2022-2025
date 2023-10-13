@@ -2,7 +2,7 @@
 
 Voici le Repo github qui contient l'ensemble 
 
-de mes travaux en programation 
+des travaux de  programation de @chamawel
 
 ## Table Des Matières
 
