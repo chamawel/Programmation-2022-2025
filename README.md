@@ -9,7 +9,7 @@ des travaux de  programation de [@chamawel](https://github.com/chamawel)
 ### Python : 
 
 1. [Exercise Sur les base de Python](Exercises/Les-bases/) 
-    - [Exercise N°1 | *Le montant à payer*](Exercises/Les-bases/ex-1p4.py)
+    - [Exercise N°1 |          *Le montant à payer*](Exercises/Les-bases/ex-1p4.py)
     - [Exercise N°2 | *L'aire d'une surface*](Exercises/Les-bases/ex-2p5.py)
     - [Exercise N°3 | *La permutation de variables*](Exercises/Les-bases/ex-3p5.py)
 
