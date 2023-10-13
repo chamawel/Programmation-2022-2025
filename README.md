@@ -8,7 +8,7 @@
 
 ## Table Des Matières
 
-### Python[^2] : 
+### Pythonn:[^2] 
 
 1. [Exercise Sur les bases de Python               ](Exercises/Les-bases/) 
     - [Exercise N°1 | *Le montant à payer*         ](Exercises/Les-bases/ex-1p4.py)
