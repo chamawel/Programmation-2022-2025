@@ -3,6 +3,8 @@
 >[!IMPORTANT]
 >Voici le Repository github qui contient l'ensemble 
 >des travaux de  programation de [@chamawel](https://github.com/chamawel)
+>Il se peut que d'autre langages de programation soit ajouté
+>et que certains fichier comporte deux manière de réaliser la même tâche.
 
 ## Table Des Matières
 
