@@ -4,7 +4,7 @@
 >Voici le Repository github qui contient l'ensemble 
 >des travaux de  programation de [@chamawel](https://github.com/chamawel)[^1]
 >Il se peut que d'autre langages de programation soit ajouté
->et que certains fichier comporte deux manière de réaliser la même tâche.
+>et que certains fichier comporte deux manière de __réaliser la même tâche__[^2].
 
 ## Table Des Matières
 
@@ -24,4 +24,5 @@
 
 
 [^1]: C'est moi. 
+[^2]: car la prof me demande de changer mon programme 💀
 
