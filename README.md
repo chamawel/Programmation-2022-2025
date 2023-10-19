@@ -21,7 +21,7 @@
     - [Exercise N°2            | *Donner le nombre de racines*  ](Exercises/Struct-condi/ex-2p8.py)
     - [Exercise N°3            | *Donner le joueur prioritaire* ](Exercises/Struct-condi/ex-3p9.py)
 
-3. [Exercise Personnel                                          ](Exercises/Personnel/)                                     
+3. [Exercise Personnel                                          ](Exercises/Personnel/)[^3]                                     
     -[calcularice                                               ](Exercises/Personnel/calculatrice.py)
     -[décompte et prise d'identité                              ](Exercises/Personnel/decompte-identite.py)
     -[Créateur et Lecteur de QR code                            ](Exercises/Personnel/qrcode-scanner.py)
@@ -29,4 +29,5 @@
 
 [^1]: C'est moi. 
 [^2]: car la prof me demande de changer mon programme 💀
+[^3]: Juste des exercises personnels, certains sont meillieurs que d'autres.
 
