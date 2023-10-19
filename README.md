@@ -22,9 +22,9 @@
     - [Exercise N°3            | *Donner le joueur prioritaire* ](Exercises/Struct-condi/ex-3p9.py)
 
 3. [Exercise Personnel                                          ](Exercises/Personnel/)[^3]                                     
-    -[calcularice                                               ](Exercises/Personnel/calculatrice.py)
-    -[décompte et prise d'identité                              ](Exercises/Personnel/decompte-identite.py)
-    -[Créateur et Lecteur de QR code                            ](Exercises/Personnel/qrcode-scanner.py)
+    - [calcularice                                               ](Exercises/Personnel/calculatrice.py)
+    - [décompte et prise d'identité                              ](Exercises/Personnel/decompte-identite.py)
+    - [Créateur et Lecteur de QR code                            ](Exercises/Personnel/qrcode-scanner.py)
 
 
 [^1]: C'est moi. 
