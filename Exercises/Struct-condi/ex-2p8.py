@@ -1,22 +1,22 @@
 import math
 
 def calcDelta(a,b,c):
-   return b*b-4*(a*c)
+   return b**2-4*(a*c)
 
 def resolve(a,b,c):
     delta = calcDelta(a,b,c)
 
-    if delta > 0 :
+    if delta < 0 :
 
-        result = "deux racines"
+        result = "aucunes racines"
 
-    elif delta < 0:
+    elif delta == 0:
 
-        result = "aucune racine"
+        result = "Une racine"
 
     else:
 
-        result = "une racine"
+        result = "Deux racines"
         
     return result
 

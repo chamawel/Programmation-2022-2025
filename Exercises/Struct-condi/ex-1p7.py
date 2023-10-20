@@ -3,10 +3,10 @@ import time
 def calcPrice(quantity) :
     if quantity < 100 :
         price = 50
-    elif quantity >=300 :
-        price = 40
-    else:
+    elif quantity <300 :
         price = 45
+    else:
+        price = 40
     
     return price
 

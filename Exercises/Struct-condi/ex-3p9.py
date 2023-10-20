@@ -29,13 +29,13 @@ while True:
     b = int(input("age 2eme joueur"))
     c = int(input("age 3eme joueur"))
 
-    if   a < b and a <c:
+    if   a < b <c :
         print("Le joueur 1 est prioritaire")
         
-    elif b < a and b <c:
+    elif b < a <c:
         print("Le joueur 2 est prioritaire")
         
-    elif c <a and c<b:
+    elif c < b <a :
         print("Le joueur 3 est prioritaire")
         
     else:
