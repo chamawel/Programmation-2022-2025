@@ -29,14 +29,23 @@ while True:
     b = int(input("age 2eme joueur"))
     c = int(input("age 3eme joueur"))
 
-    if   a < c :
-        print("Le joueur 1 est prioritaire")
-        
-    elif b < c:
-        print("Le joueur 2 est prioritaire")
-        
+    if  a < b  :
+        if a < c:
+            print("Premier joueur Prioritaire")
+        else:
+            print("Troisième")
+
+    elif a > b:
+        if b < c:
+            print("deuxieme")
+        else:
+            print("troisieme")
+    
     else:
-        print("Le joueur 3 a la priorité")
+        print("égaliter")
+    
+
+    
 
     isquitting = input("Voulez-vos quitter ? (Y/N)")
 
