@@ -41,9 +41,6 @@ while True:
         else:
             print("troisieme")
     
-    else:
-        print("égaliter")
-    
 
     
 
