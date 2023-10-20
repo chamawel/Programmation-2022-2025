@@ -33,13 +33,13 @@ while True:
         if a < c:
             print("Premier joueur Prioritaire")
         else:
-            print("Troisième")
+            print("Troisième joueur Prioritaire ")
 
     elif a > b:
         if b < c:
-            print("deuxieme")
+            print("Deuxieme joueur Prioritaire")
         else:
-            print("troisieme")
+            print("Troisieme joueur Prioritaire")
     
 
     
