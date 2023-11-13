@@ -35,11 +35,10 @@ while True:
         else:
             print("Troisième joueur Prioritaire ")
 
-    elif a > b:
-        if b < c:
-            print("Deuxieme joueur Prioritaire")
-        else:
-            print("Troisieme joueur Prioritaire")
+    elif b < c:
+        print("Deuxieme joueur Prioritaire")
+    else:
+        print("C'est le 3eme")
     
 
     
