@@ -30,7 +30,7 @@
     - [calcularice                                              ](Exercises/Personnel/calculatrice.py)
     - [décompte et prise d'identité                             ](Exercises/Personnel/decompte-identite.py)
     - [Créateur et Lecteur de QR code                           ](Exercises/Personnel/qrcode-scanner.py)
-    - [Les exceptions                                           ](Exercise/Personnel/exception.py)
+    - [Les exceptions                                           ](Exercises/Personnel/exception.py)
 
 
 
