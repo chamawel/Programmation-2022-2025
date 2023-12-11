@@ -21,8 +21,8 @@
     - [Exercise N°2            | *Donner le nombre de racines*  ](Exercises/Struct-condi/ex-2p8.py)
     - [Exercise N°3            | *Donner le joueur prioritaire* ](Exercises/Struct-condi/ex-3p9.py)
 
-3. [Exercise Sur Les Boucles                                    ](Exercise/boucles)
-    - [Exercise N°1             | *Le Nombre + 10*              ](Exercise/boucles/ex-1p21.py)
+3. [Exercise Sur Les Boucles                                    ](Exercises/boucles)
+    - [Exercise N°1             | *Le Nombre + 10*              ](Exercises/boucles/ex-1p21.py)
 
 
 
