@@ -1,4 +1,3 @@
-from tkinter.font import BOLD
 from colorama import Back, Fore, Style
 
 while True:
