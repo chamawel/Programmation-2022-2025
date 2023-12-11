@@ -21,10 +21,17 @@
     - [Exercise N°2            | *Donner le nombre de racines*  ](Exercises/Struct-condi/ex-2p8.py)
     - [Exercise N°3            | *Donner le joueur prioritaire* ](Exercises/Struct-condi/ex-3p9.py)
 
-3. [Exercise Personnel                                          ](Exercises/Personnel/)[^3]                                     
-    - [calcularice                                               ](Exercises/Personnel/calculatrice.py)
-    - [décompte et prise d'identité                              ](Exercises/Personnel/decompte-identite.py)
-    - [Créateur et Lecteur de QR code                            ](Exercises/Personnel/qrcode-scanner.py)
+3. [Exercise Sur Les Boucles                                    ](Exercise/boucles)
+    - [Exercise N°1             | *Le Nombre + 10*              ](Exercise/boucles/ex-1p21.py)
+
+
+
+4. [Exercise Personnel                                          ](Exercises/Personnel/)[^3]                                     
+    - [calcularice                                              ](Exercises/Personnel/calculatrice.py)
+    - [décompte et prise d'identité                             ](Exercises/Personnel/decompte-identite.py)
+    - [Créateur et Lecteur de QR code                           ](Exercises/Personnel/qrcode-scanner.py)
+    - [Les exceptions                                           ](Exercise/Personnel/exception.py)
+
 
 
 [^1]: C'est moi. 
