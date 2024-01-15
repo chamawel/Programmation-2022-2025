@@ -23,7 +23,7 @@
 
 3. [Exercise Sur Les Boucles                                    ](Exercises/boucles)
     - [Exercise N°1             | *Le Nombre + 10*              ](Exercises/boucles/ex-1p21.py)
-
+    - [Exercise N°2             | *La somme de nombres paires*  ](Exercises/boucles/ex-2p22.py)
 
 
 4. [Exercise Personnel                                          ](Exercises/Personnel/)[^3]                                     
