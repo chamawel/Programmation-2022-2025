@@ -5,10 +5,10 @@ while True:
     result = 0                                      # result est le résultat.
 
     while checked_number < max_number:
-        checked_number += 1
-
         if checked_number%2 == 0:
             result += checked_number
+
+        checked_number += 1
     
     print(f"Le résultat de la somme des nombres paire entre 1 et {max_number} est de : {result} ")
 
