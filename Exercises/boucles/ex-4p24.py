@@ -1,5 +1,5 @@
 from random import randint
-question = 5
+question = 20
 lifes = 2
 score = 0
 c = 0
