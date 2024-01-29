@@ -15,11 +15,12 @@ while c < question:
         print("Bravo")
         
     else:
-        print("raté")
+        print(f"raté, la bonne réponse était {randint_1*randint_2}  ")
         lifes -=1
 
         if lifes == 0:
-            print(f"raté , la bonne réponse était {randint_1*randint_2} ")
+            print(f"Perdu !")
+            break
 
 print(f"votre score : {score} ")
 
