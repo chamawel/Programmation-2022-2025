@@ -10,11 +10,11 @@ while divider <= divided_number:
         
         if full_divisions %2 == 0 :
             print("Il est Premier")
-            break
+            
         
         else:
             print("Il n'est pas premier")
-            break
+            
         
     full_divisions +=1
         
