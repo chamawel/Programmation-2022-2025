@@ -24,9 +24,14 @@
 3. [Exercise Sur Les Boucles                                    ](Exercises/boucles)
     - [Exercise N°1             | *Le Nombre + 10*              ](Exercises/boucles/ex-1p21.py)
     - [Exercise N°2             | *La somme de nombres paires*  ](Exercises/boucles/ex-2p22.py)
+    - [Exercise N°3             | *La multiplication sans *     ](Exercises/Boucles/ex-3p23.py)
+    - [Exercise N°4             | *La table de multiplations*   ](Exercises/Boucles/ex-4p24.py)
+    - [Exercise N°5             | *Les nombres premier*         ](Exercises/Boucles/ex-5p25.py)
 
+4. [Tour De Main                                                ](Exercises/Tour-de-Main)
+    -[Exercise N°1              | *Le nombre de mots entré*     ](Exercises/Tour-de-main/tdm1-ex1p1.py)
 
-4. [Exercise Personnel                                          ](Exercises/Personnel/)[^3]                                     
+5. [Exercise Personnel                                          ](Exercises/Personnel/)[^3]                                     
     - [calcularice                                              ](Exercises/Personnel/calculatrice.py)
     - [décompte et prise d'identité                             ](Exercises/Personnel/decompte-identite.py)
     - [Créateur et Lecteur de QR code                           ](Exercises/Personnel/qrcode-scanner.py)
