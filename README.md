@@ -30,6 +30,9 @@
 
 4. [Tour De Main                                                ](Exercises/Tour-de-Main)
     -[Exercise N°1              | *Le nombre de mots entré*     ](Exercises/Tour-de-main/tdm1-ex1p1.py)
+    -[Exercise N°2              | *Le Nombre mit a l'exposant*  ](Exercises/Tour-de-main/tdm1-ex2p2.py)
+    -[Exercise N°3              | *Le nombre de voiture *       ](Exercises/Tour-de-main/tdm1-ex3p3.py)
+
 
 5. [Exercise Personnel                                          ](Exercises/Personnel/)[^3]                                     
     - [calcularice                                              ](Exercises/Personnel/calculatrice.py)
