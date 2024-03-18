@@ -29,13 +29,13 @@
     - [Exercise N°5             | *Les nombres premier*         ](Exercises/Boucles/ex-5p25.py)
 
 4. [Tour De Main                                                ](Exercises/Tour-de-Main)
-    - #### TDM 1
+    #### TDM 1
     
     - [TDM 1 Exercise N°1              | *Le nombre de mots entré*     ](Exercises/Tour-de-main/tdm1-ex1p1.py)
     - [TDM 1 Exercise N°2              | *Le Nombre mit a l'exposant*  ](Exercises/Tour-de-main/tdm1-ex2p2.py)
     - [TDM 1 Exercise N°3              | *Le nombre de voiture *       ](Exercises/Tour-de-main/tdm1-ex3p3.py)
     
-    - #### TDM 2
+    #### TDM 2
     
     - [TDM 2 Exercise N° 1             | *La somme De Nombre donner*                            ](Exercises/Tour-de-main/tdm2-ex1p5.py)
     - [TDM 2 Exercise N° 2             | *La Somme de Nombre Aléatoire*                         ](Exercises/Tour-de-main/tdm2-ex2p6.py)
