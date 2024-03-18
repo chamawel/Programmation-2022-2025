@@ -24,7 +24,7 @@
 3. [Exercise Sur Les Boucles                                    ](Exercises/boucles)
     - [Exercise N°1             | *Le Nombre + 10*              ](Exercises/boucles/ex-1p21.py)
     - [Exercise N°2             | *La somme de nombres paires*  ](Exercises/boucles/ex-2p22.py)
-    - [Exercise N°3             | *La multiplication sans *     ](Exercises/Boucles/ex-3p23.py)
+    - [Exercise N°3             | *La multiplication sans*     ](Exercises/Boucles/ex-3p23.py)
     - [Exercise N°4             | *La table de multiplations*   ](Exercises/Boucles/ex-4p24.py)
     - [Exercise N°5             | *Les nombres premier*         ](Exercises/Boucles/ex-5p25.py)
 
@@ -33,7 +33,7 @@
     
     - [TDM 1 Exercise N°1              | *Le nombre de mots entré*     ](Exercises/Tour-de-main/tdm1-ex1p1.py)
     - [TDM 1 Exercise N°2              | *Le Nombre mit a l'exposant*  ](Exercises/Tour-de-main/tdm1-ex2p2.py)
-    - [TDM 1 Exercise N°3              | *Le nombre de voiture *       ](Exercises/Tour-de-main/tdm1-ex3p3.py)
+    - [TDM 1 Exercise N°3              | *Le nombre de voiture*       ](Exercises/Tour-de-main/tdm1-ex3p3.py)
     
     #### TDM 2
     
