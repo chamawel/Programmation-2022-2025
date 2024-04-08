@@ -41,7 +41,7 @@
     - [TDM 2 Exercise N° 2             | *La Somme de Nombre Aléatoire*                         ](Exercises/Tour-de-main/tdm2-ex2p6.py)
     - [TDM 2 Exercise N° 3             | *Le nombre de Km du voyage*                            ](Exercises/Tour-de-main/tdm2-ex3p7.py)
 
-    ### TDM 3
+    #### TDM 3
 
     - [TDM 3 Exercise N° 1             | *Le + grand et le plus petit nombre*                   ](Exercises/Tour-de-main/tdm3-ex1p9.py)
     - [TDM 3 Exercise N° 2             | *Le voyage avec moyenne*                               ](Exercises/Tour-de-main/tdm3-ex2p10.py)
