@@ -1,12 +1,12 @@
 from colorama import *          # pip install colorama
 just_fix_windows_console()      # Pour le CMD de windows
 
-days = int(input("Combien de Jour ?"))
-distance_train = int(input(f"Nmb de km en {Back.YELLOW}Train{Back.RESET} ?" ))
-distance_foot = int(input(f"Nmb de km à {Back.CYAN}Pied{Back.RESET} ? " ))
-print(f"Moyenne de Km ce jour : {(distance_foot + distance_train) /2 } ")
+days = int(input("Combien de Jour ?"))                                          # Demande de n° d ejour du séjour
+distance_train = int(input(f"Nmb de km en {Back.YELLOW}Train{Back.RESET} ?" ))  # Demande distance [Train] 
+distance_foot = int(input(f"Nmb de km à {Back.CYAN}Pied{Back.RESET} ? " ))      # Demande distance [Pied]
+print(f"Moyenne de Km ce jour : {(distance_foot + distance_train) /2 } ")       # Affichage [mayenne] 
 
-greatest_distance_f = distance_foot
+greatest_distance_f = distance_foot 
 
 total_distance_t = distance_train
 total_distance_f = distance_foot
