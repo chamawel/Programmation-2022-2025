@@ -6,7 +6,7 @@ att         : str = 'attention'
 last_word   : str = curent_word
 
 
-while curent_word != stop and last_word != att:
+while curent_word != stop or last_word != att:
     
     last_word = curent_word
     

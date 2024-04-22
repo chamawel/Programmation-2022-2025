@@ -16,7 +16,7 @@ print(f"Le Lancé n° {Back.YELLOW} {index} {Back.RESET} vaut {Back.GREEN} {pick
 
 # / Main Loop /
 
-while last_num !=5 and picked_number != 6 :
+while last_num != 5 or picked_number != 6 :
 
     last_num = picked_number
     index +=1
