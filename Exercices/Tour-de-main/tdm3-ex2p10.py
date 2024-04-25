@@ -1,5 +1,5 @@
 from colorama import *          # pip install colorama
-just_fix_windows_console()      # Pour le CMD de windows
+#just_fix_windows_console()      # Pour le CMD de windows
 
 days = int(input("Combien de Jour ?"))                                          # Demande de n° d ejour du séjour
 distance_train = int(input(f"Nmb de km en {Back.YELLOW}Train{Back.RESET} ?" ))  # Demande distance [Train] 
@@ -24,7 +24,7 @@ while current_day < days:
         distance_train = int(input(f"Nmb de km en {Back.YELLOW}Train{Back.RESET} ?" ))
         distance_foot = int(input(f"Nmb de km à {Back.CYAN}Pied{Back.RESET} ?" ))
         
-        # // Check si le N° de Km et le + grand //
+        # // Check si le N° de Km et le + grand //1
         if distance_foot > greatest_distance_f:
             greatest_distance_f = distance_foot
 
@@ -47,4 +47,4 @@ while current_day < days:
         print("Les valeur ont été réinitialisée")
     
 
-print(f"Tom et Pierre on parcourus : {Back.CYAN}{total_distance_f}Km{Back.RESET} à pied et {Back.YELLOW}{total_distance_t}Km{Back.RESET} en train. La plus grande distance parcourue a pied est de {Back.CYAN} {greatest_distance_f}km {Back.RESET55} ") 
+print(f"Tom et Pierre on parcourus : {Back.CYAN}{total_distance_f}Km{Back.RESET} à pied et {Back.YELLOW}{total_distance_t}Km{Back.RESET} en train. La plus grande distance parcourue a pied est de {Back.CYAN} {greatest_distance_f}km {Back.RESET} ") 
