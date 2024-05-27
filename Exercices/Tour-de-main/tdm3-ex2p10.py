@@ -1,18 +1,21 @@
 from colorama import *          # pip install colorama
-#just_fix_windows_console()      # Pour le CMD de windows
+just_fix_windows_console()      # Pour le CMD de windows
 
 days = int(input("Combien de Jour ?"))                                          # Demande de n° d ejour du séjour
 distance_train = int(input(f"Nmb de km en {Back.YELLOW}Train{Back.RESET} ?" ))  # Demande distance [Train] 
 distance_foot = int(input(f"Nmb de km à {Back.CYAN}Pied{Back.RESET} ? " ))      # Demande distance [Pied]
-print(f"Moyenne de Km ce jour : {(distance_foot + distance_train) /2 } ")       # Affichage [mayenne] 
-
+    # Affichage [mayenne] 
 greatest_distance_f = distance_foot 
 
 total_distance_t = distance_train
 total_distance_f = distance_foot
 
-
 current_day = 1
+
+print(f"Moyenne de Km ce jour {Back.CYAN}  (pied)  {Back.RESET} : {(total_distance_f) / current_day } ")
+print(f"Moyenne de Km ce jour {Back.YELLOW}(train){Back.RESET}  : {(total_distance_t) / current_day } ")
+
+
 
 while current_day < days:
     
@@ -28,13 +31,16 @@ while current_day < days:
         if distance_foot > greatest_distance_f:
             greatest_distance_f = distance_foot
 
-        # // Affichage De la Moyenne/Jour
-        print(f"Moyenne de Km ce jour : {(distance_foot + distance_train) /2 } ")
-        
+ 
         # // Somme Des Distances //
         total_distance_t += distance_train
         total_distance_f += distance_foot
         current_day += 1
+
+        # // Affichage De la Moyenne/Jour
+        print(f"Moyenne de Km ce jour {Back.CYAN}  (pied)  {Back.RESET} : {(total_distance_f) / current_day } ")
+        print(f"Moyenne de Km ce jour {Back.YELLOW}(train){Back.RESET}  : {(total_distance_t) / current_day } ")
+       
     
     except ValueError: # // En cas d'erreur //
 
