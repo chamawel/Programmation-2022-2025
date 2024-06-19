@@ -28,7 +28,7 @@
     - [exercice N°4             | *La table de multiplations*   ](Exercices/Boucles/ex-4p24.py)
     - [exercice N°5             | *Les nombres premier*         ](Exercices/Boucles/ex-5p25.py)
 
-4. [Tour De Main                                                ](Exercices/Tour-de-Main)
+4. [Tour De Main                                                ](Exercices/Tour-de-main)
     #### TDM 1
     
     - [TDM 1 exercice N°1              | *Le nombre de mots entré*     ](Exercices/Tour-de-main/tdm1-ex1p1.py)
