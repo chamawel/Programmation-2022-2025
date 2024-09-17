@@ -4,6 +4,6 @@ for i in range(len(list)):
     if i < 10:
         list[i] = i + 1
     else:
-        list[i] = list[i-1] -1 
+        list[i] = len(list) - i
 
 print(list)
