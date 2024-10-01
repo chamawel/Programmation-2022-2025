@@ -1,18 +1,19 @@
-liste           : list = [32,5,12,8,3,75,2,15]
-greatest        : int = 0
-index           : int = 0     
-greatest_index  : int = 0 
+liste           : list = [-11,23,-43,18,-3,-725,-2,15]
+first_elem      : int  = liste[0]
 
-for elem in liste:
-        if elem > greatest:
-            greatest = elem
-            greatest_index = index
+greatest        : int  = first_elem
+greatests_index  : int  = 0
 
-        index +=1  
+for i in range(len(liste)):
+        if liste[i] > greatest:
+            greatest = liste[i]
+            greatests_index = i
+            
+
     
      
-        
+
 
     
     
-print(f"Le plus grand élément est le {greatest_index} et vaut {greatest}")
+print(f"Le plus grand élément est le {greatests_index} et vaut {greatest}")
