@@ -1,25 +1,28 @@
-stop_word : str = input("Donner le mot pour stopper")
+wanted_word : str = input("Donner le mot pour stopper")
 word_list : list = [""] * 20
-
+found     : int
 
 for i in range(len(word_list)):
-    if stop_word not in word_list:
         word_list[i] = input("Donner un mot")
-    
-    else:
-        word_found = i
+
+        if word_list[i] == wanted_word:
+             found = i
 
 
-if word_found < 5:
+
+if found < 5:
     print("5 premier")
-            
 
-elif word_found < 10:
+elif found < 10:
     print("5 suivant")
-            
+
 else:
     print("plus loin")
+
             
+
+
+
 
     
 
