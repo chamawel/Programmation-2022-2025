@@ -1,3 +1,9 @@
+   #Afficher les multiple de 3 et de 2 présent dans le tableaux
+#
+#
+
+
+
 list_of_nums                : list = [0] * 20
 multiples_of_three          : int = 0
 multiples_of_three_and_two  : int = 0
