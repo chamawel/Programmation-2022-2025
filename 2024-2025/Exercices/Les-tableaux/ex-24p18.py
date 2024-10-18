@@ -1,26 +1,22 @@
-list_of_nums              : list = [0] * 20
-multiples_of_five         : int = 0
-multiples_of_five_and_two : int = 0
+# Afficher combien de multiple de 3 il y a dans dans le tableaux
+# Et combien sont aussi multiple de deux et trois.
 
-fill_index                : int = 0
+list_of_nums                : list = [3,5,12,20,9] 
+multiples_of_three          : int  = 0
+multiples_of_three_and_two  : int  = 0
 
-# On remplit la liste
 
-while multiples_of_five < 3:
-    list_of_nums[fill_index] = int(input("Donner un nombre"))
+for i in range(len(list_of_nums)):
+    if list_of_nums[i]  %3 == 0: #check mult de 3
+        multiples_of_three += 1
+        
+        if list_of_nums[i] %2 == 0:
+            multiples_of_three_and_two += 1 
 
-# Mult de 5 ?
-    if list_of_nums[fill_index] %5 == 0:
-        multiples_of_five += 1
-    #Mult de 5 ET de 2 ?
-        if list_of_nums[fill_index] %2 == 0:
-            multiples_of_five_and_two += 1
-
-    fill_index +=1
+    
 
 
 
-
-print(f"il y avait {multiples_of_five_and_two} multiple de deux et cinq")
+print(f"il y avait:\n{multiples_of_three} multiple(s) de trois,\n{multiples_of_three_and_two} multiple(s) de deux et trois")
 
 
