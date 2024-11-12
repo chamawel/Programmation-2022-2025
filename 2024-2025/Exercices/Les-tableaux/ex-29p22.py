@@ -3,13 +3,11 @@ months          : list = ['Janvier','Février','Mars','Avril','Mai','Juin','Jull
 days_and_months : list = [0] * 24
 
 
-for i in range(len(days_and_months)):
-    if i%2 == 0:
-        days_and_months[i] = months[]
-        
+for i in range(12):
+    days_and_months[i * 2] = months[i]
+    days_and_months[i * 2 + 1]     = days[i]
 
-    elif i%2 !=0:
-        days_and_months[i] = days[]
+
     
-        
+
 print(days_and_months)
