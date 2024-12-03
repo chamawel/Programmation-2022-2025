@@ -1,3 +1,5 @@
+#possible de compa les lettres directement
+
 asked_letter : str = input("Donner une lettre minuscule: ")
 
 if len(asked_letter) == 1 and ord(asked_letter) >= ord("a"):
