@@ -51,8 +51,10 @@
     - [TDM 4 Exercice N° 1             | *Le compteur de mot ++*                                ](2023-2024/Exercices/Tour-de-main/tdm4-ex1p11.py)
     - [TDM 4 Exercice N° 2             | *Le lancé de dès ++*                                   ](2023-2024/Exercices/Tour-de-main/tdm4-ex2p12.py)
 
+5. [Les tableaux                                                ](2024-2025/Exercices/Les-tableaux)
+    - [Exercice d'intro                | *L'age des téléphones*                                 ](2024-2025/Exercices/Les-tableaux/ex-intro-tableaux.py)
 
-5. [exercice Personnel                                          ](Personnel/)[^3]                                     
+8. [exercice Personnel                                          ](Personnel/)[^3]                                     
     - [calcularice                                              ](Personnel/calculatrice.py)
     - [décompte et prise d'identité                             ](Personnel/decompte-identite.py)
     - [Créateur et Lecteur de QR code                           ](Personnel/qrcode-scanner.py)
