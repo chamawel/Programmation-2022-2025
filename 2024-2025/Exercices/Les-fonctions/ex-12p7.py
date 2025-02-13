@@ -5,7 +5,7 @@ def replaceChar(phrase : str, char1 : str, char2 : str, start : int = 0, end : i
     if end == -1:
         end = len(phrase)
 
-    transformed_phrase : str = " "
+    transformed_phrase : str = ""
 
     for i in range(start,end):
         if phrase[i] == char1:
@@ -16,6 +16,6 @@ def replaceChar(phrase : str, char1 : str, char2 : str, start : int = 0, end : i
 
     return transformed_phrase
  
-phrase = "aeaeae"
+phrase = "aeaeaeaeaeaeaeae"
 
 print(replaceChar(phrase,"e","b"))
