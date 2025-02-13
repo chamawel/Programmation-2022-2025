@@ -1,8 +1,5 @@
 def boxVolume(lenght : float = -1, height : float = -1, depth : float = -1) -> float: 
-    if lenght == -1:
-        return -1
-    
-    elif height == -1:
+    if height == -1:
         return lenght**3
     
     elif depth == -1:
@@ -15,6 +12,6 @@ def boxVolume(lenght : float = -1, height : float = -1, depth : float = -1) -> f
 
 # Main
 print(boxVolume())
-print(boxVolume(5.2))
-print(boxVolume(5.2, 3))
-print(boxVolume(5.2, 3, 7.4))
+print(boxVolume(5.2))           # lenght**3
+print(boxVolume(5.2, 3))        # lenght**2 * height
+print(boxVolume(5.2, 3, 7.4))   # lenght * height * depth

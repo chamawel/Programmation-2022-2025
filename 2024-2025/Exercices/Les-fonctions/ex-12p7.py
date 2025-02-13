@@ -8,12 +8,9 @@ def replaceChar(phrase : str, char1 : str, char2 : str, start : int = 0, end : i
     transformed_phrase : str = ""
 
     for i in range(len(phrase)):
-        if i >= start and i <= end:
-            
-            if phrase[i] == char1:
+        
+        if i >= start and i <= end and phrase[i] == char1:
                 transformed_phrase += char2
-            else:
-                transformed_phrase += phrase[i]
         
         else:
             transformed_phrase += phrase[i]
