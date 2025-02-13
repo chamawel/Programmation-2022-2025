@@ -7,9 +7,13 @@ def replaceChar(phrase : str, char1 : str, char2 : str, start : int = 0, end : i
 
     transformed_phrase : str = ""
 
-    for i in range(start,end):
-        if phrase[i] == char1:
-            transformed_phrase += char2
+    for i in range(len(phrase)):
+        if i >= start and i <= end:
+            
+            if phrase[i] == char1:
+                transformed_phrase += char2
+            else:
+                transformed_phrase += phrase[i]
         
         else:
             transformed_phrase += phrase[i]
@@ -18,4 +22,4 @@ def replaceChar(phrase : str, char1 : str, char2 : str, start : int = 0, end : i
  
 phrase = "aeaeaeaeaeaeaeae"
 
-print(replaceChar(phrase,"e","b"))
+print(replaceChar(phrase,"e","b",5,9))
