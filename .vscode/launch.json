@@ -10,6 +10,14 @@
             "request": "launch",
             "program": "${file}",
             "console": "externalTerminal"
-        }
+        },
+        {
+            "name": "Debugpy Old: Current File",
+            "type": "debugpy-old",
+            "request": "launch",
+            "program": "${file}",
+            "console": "externalTerminal",
+            "justMyCode": true
+        },
     ]
 }
