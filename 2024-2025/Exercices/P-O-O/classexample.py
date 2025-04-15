@@ -27,26 +27,41 @@ class Cubes:
 class Circles:
 
     def __init__(self, color : str, volume : int, radius : int):
-         self.color  = color
-         self.volume = volume
-         self.radius = radius
-
-    def get_color(self):
-         return self.color
-
-    def get_volume(self):
-         return self.volume
+         self._color  = color
+         self._volume = volume
+         self._radius = radius
     
-    def get_radius(self):
-         return self.radius
+    @property
+    def color(self):
+         return self._color
+
+    @property 
+    def volume(self):
+         return self._volume
+    
+    @property
+    def radius(self):
+         return self._radius
+    
+    @color.setter
+    def color(self, value):
+          self._color = value
+
+    @volume.setter
+    def volume(self, value):
+         self._volume = value
+
+    @radius.setter
+    def radius(self, value):
+         self._radius = value  
 
     
     def __add__(self, other):
          if self.__class__ == other.__class__:
             
             return {                                       # ~ USING A DICTIONARY TO RETURN BOTH VALUES
-                 "volume": self.volume + other.volume,
-                 "radius" : self.radius + other.radius,   
+                 "volume": self._volume + other._volume,
+                 "radius" : self._radius + other._radius,   
                     }
          else:
               return "On ne mélange pas les chiens et les chats"
@@ -69,5 +84,8 @@ print(green_cube + yelllow_circle + "\n")      # ~ ADDING A CUBE AND A CIRCLE
 
 print(yelllow_circle + purple_circle)   # ~ ADDING TWO CIRCLES
 
+print(yelllow_circle.radius)  # ~ Getting the rad of the circle
+yelllow_circle.radius = 22    # ~ Changing the radius of the circle
+print(yelllow_circle.radius)
 
 
