@@ -30,6 +30,7 @@ def draw_all_squares() -> None:
     draw_square(100, "yellow", 30, -100)
 
 
+
 # MAIN
 
 draw_all_squares()
