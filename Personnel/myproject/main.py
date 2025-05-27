@@ -1,7 +1,7 @@
-import player_obj as PlayerBuilder
+from player_obj import Player
 
-player1 = PlayerBuilder.Player("chamawel",0,1,1)
+player1 = Player("chamawel")
 
 player1.levelUp = 3
 
-print(player1.allStats)
+print(player1.allData)
