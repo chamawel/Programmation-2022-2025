@@ -17,9 +17,10 @@ class Player(Inventory):
         super().__init__(items,balance)
         self._name       = name
         self._level      = level
-        self._health      = health
+        self._health     = health
         self._dmg        = dmg
         self._defence    = defence
+    
 
     @property
     def level(self)     -> int:
@@ -43,21 +44,31 @@ class Player(Inventory):
 
 
     @level.setter
-    def levelUp(self,amount : int) -> str:
+    def levelUp(self,amount : int) -> None:
         """Adds {amount} of level to a player and Boosts his stats"""
         self._level += amount
         
         self._dmg       += (1.5 * self._level)
         self._defence   += (1.2 * self._level)
 
-        return f"Player {self._name} is now level {self.level} his/her stats have gone up!\n"
+        print(f"Player {self._name} is now level {self.level} his/her stats have gone up!\n")
     
+    @health.setter
+    def takeDamage(self,amount : int) -> None:
+        """Deals 'amount' of damage to the player"""
+        self._health -= amount
+        if self._health <= 0:
+            print(f"player {self._name} has died !!")
+            del self
+
+        print(f"{self._name} took {amount} of damage his/her health goes down to {self._health}")
+
     @property
     def allStats(self) -> str:
         """ Returns all of the player's stats\n
-            Level,damage and defence
+            Level,damage, defence and health
         """
-        return f"{self._name}'s stats:\nLevel:{self._level}\nDamage: {self._dmg}\nDefence:{self._defence}\n"
+        return f"{self._name}'s stats:\nLevel:{self._level}\nDamage: {self._dmg}\nDefence:{self._defence}\nHealth: {self._health}\n"
     
     @property
     def allData(self) -> str:
@@ -66,7 +77,7 @@ class Player(Inventory):
         """
         return f"{self._name}'s data:\nItems: {self._data}\nBalance:{self._balance}\n"
     
-    def openChest(self, chest : Chest):
+    def openChest(self, chest : Chest) -> None:
         if chest.__class__ == Chest:
             if chest._isempty == False:
                 self._data.extend(chest._data)
@@ -82,6 +93,6 @@ class Player(Inventory):
         else:
             msg = f"Tried to open something other than a Chest\n"
         
-        return msg
+        print(msg)
 
 
